@@ -1,0 +1,45 @@
+
+.nav-chlotes {
+    grid-column: 1 / 4;
+    background-color: rgb(11, 15, 90);
+    padding: 2%;
+}
+
+ 
+.contenu-clhlotes {
+    grid-column: 2 /4;
+}
+
+.footer {
+    grid-column: 2 /4;
+    background: var(--main-bg-color);
+}
+
+.box-icon i {
+    font-size: 0.8rem;
+    color: white;
+}
+
+/* nav */
+
+.nav-chlotes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.icon-left-chlotis-nextgen{
+    display: flex;
+    gap: 10px;
+}
+
+.box-icon {
+    background: var(--main-bg-color);
+    width: 40px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}

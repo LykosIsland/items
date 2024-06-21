@@ -1,0 +1,4 @@
+:root {
+    --DurationAnimationOpenMenu: 0.8s; 
+    --AnimationMenu: ScaleAnimation; /* leftAnimation, opacityAnimation, ScaleAnimation*/
+}
